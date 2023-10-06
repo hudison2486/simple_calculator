@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/png">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" readonly>
+        <div class="buttons">
+            <button class="button" onclick="clearDisplay()"><b>C</b></button>
+            <button class="button" onclick="appendToDisplay('7')"><b>7</b></button>
+            <button class="button" onclick="appendToDisplay('8')"><b>8</b></button>
+            <button class="button" onclick="appendToDisplay('9')"><b>9</b></button>
+            <button class="button" onclick="appendToDisplay('+')"><b>+</b></button>
+            <button class="button" onclick="appendToDisplay('4')"><b>4</b></button>
+            <button class="button" onclick="appendToDisplay('5')"><b>5</b></button>
+            <button class="button" onclick="appendToDisplay('6')"><b>6</b></button>
+            <button class="button" onclick="appendToDisplay('-')"><b>-</b></button>
+            <button class="button" onclick="appendToDisplay('1')"><b>1</b></button>
+            <button class="button" onclick="appendToDisplay('2')"><b>2</b></button>
+            <button class="button" onclick="appendToDisplay('3')"><b>3</b></button>
+            <button class="button" onclick="appendToDisplay('x')"><b>x</b></button>
+            <button class="button" onclick="appendToDisplay('0')"><b>0</b></button>
+            <button class="button" onclick="appendToDisplay('.')"><b>.</b></button>
+            <button class="button" onclick="result()"><b>=</b></button>
+            <button class="button" onclick="appendToDisplay('/')"><b>/</b></button>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.instagram.com/zeehuddson/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/hudison2486" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
